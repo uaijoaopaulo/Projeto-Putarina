@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DataBaseModelStoreContainer" CdmEntityContainer="DataBaseEntities">
+    <EntitySetMapping Name="praca">
+      <EntityTypeMapping TypeName="DataBase.Model.praca">
+        <MappingFragment StoreEntitySet="praca">
+          <ScalarProperty Name="id_praca" ColumnName="id_praca" />
+          <ScalarProperty Name="cidade" ColumnName="cidade" />
+          <ScalarProperty Name="localizacao" ColumnName="localizacao" />
+          <ScalarProperty Name="qtd_catracas" ColumnName="qtd_catracas" />
+          <ScalarProperty Name="preco_moto" ColumnName="preco_moto" />
+          <ScalarProperty Name="preco_carro_passeio" ColumnName="preco_carro_passeio" />
+          <ScalarProperty Name="preco_caminhao" ColumnName="preco_caminhao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="registro_veiculo">
+      <EntityTypeMapping TypeName="DataBase.Model.registro_veiculo">
+        <MappingFragment StoreEntitySet="registro_veiculo">
+          <ScalarProperty Name="id_veiculo" ColumnName="id_veiculo" />
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+          <ScalarProperty Name="horario" ColumnName="horario" />
+          <ScalarProperty Name="preco_pago" ColumnName="preco_pago" />
+          <ScalarProperty Name="forma_pagamento" ColumnName="forma_pagamento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="usuario">
+      <EntityTypeMapping TypeName="DataBase.Model.usuario">
+        <MappingFragment StoreEntitySet="usuario">
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+          <ScalarProperty Name="nome" ColumnName="nome" />
+          <ScalarProperty Name="ativo" ColumnName="ativo" />
+          <ScalarProperty Name="usuario1" ColumnName="usuario" />
+          <ScalarProperty Name="data_nascimento" ColumnName="data_nascimento" />
+          <ScalarProperty Name="senha" ColumnName="senha" />
+          <ScalarProperty Name="catraca" ColumnName="catraca" />
+          <ScalarProperty Name="id_praca" ColumnName="id_praca" />
+          <ScalarProperty Name="tipo" ColumnName="tipo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="veiculo">
+      <EntityTypeMapping TypeName="DataBase.Model.veiculo">
+        <MappingFragment StoreEntitySet="veiculo">
+          <ScalarProperty Name="id_veiculo" ColumnName="id_veiculo" />
+          <ScalarProperty Name="placa" ColumnName="placa" />
+          <ScalarProperty Name="tipo" ColumnName="tipo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

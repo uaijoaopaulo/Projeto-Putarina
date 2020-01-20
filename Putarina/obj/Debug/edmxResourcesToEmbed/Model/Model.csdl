@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Database1.Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="praca">
+    <Key>
+      <PropertyRef Name="id_praca" />
+    </Key>
+    <Property Name="id_praca" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="cidade" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="localizacao" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="qtd_catracas" Type="Int32" Nullable="false" />
+    <Property Name="preco_moto" Type="Double" Nullable="false" />
+    <Property Name="preco_carro_passeio" Type="Double" Nullable="false" />
+    <Property Name="preco_caminhao" Type="Double" Nullable="false" />
+    <NavigationProperty Name="usuario" Relationship="Self.FK_praca_usuario_fk" FromRole="praca" ToRole="usuario" />
+  </EntityType>
+  <EntityType Name="registro_veiculo">
+    <Key>
+      <PropertyRef Name="id_veiculo" />
+      <PropertyRef Name="id_usuario" />
+    </Key>
+    <Property Name="id_veiculo" Type="Int32" Nullable="false" />
+    <Property Name="id_usuario" Type="Int32" Nullable="false" />
+    <Property Name="horario" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="preco_pago" Type="Double" Nullable="false" />
+    <Property Name="forma_pagamento" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="usuario" Relationship="Self.FK_usuario_registro_veiculo_fk" FromRole="registro_veiculo" ToRole="usuario" />
+    <NavigationProperty Name="veiculo" Relationship="Self.FK_veiculo_registro_veiculo_fk" FromRole="registro_veiculo" ToRole="veiculo" />
+  </EntityType>
+  <EntityType Name="usuario">
+    <Key>
+      <PropertyRef Name="id_usuario" />
+    </Key>
+    <Property Name="id_usuario" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nome" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ativo" Type="Boolean" Nullable="false" />
+    <Property Name="nickusuario" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="data_nascimento" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="senha" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="catraca" Type="Int32" Nullable="false" />
+    <Property Name="id_praca" Type="Int32" Nullable="false" />
+    <Property Name="tipo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="praca" Relationship="Self.FK_praca_usuario_fk" FromRole="usuario" ToRole="praca" />
+    <NavigationProperty Name="registro_veiculo" Relationship="Self.FK_usuario_registro_veiculo_fk" FromRole="usuario" ToRole="registro_veiculo" />
+  </EntityType>
+  <EntityType Name="veiculo">
+    <Key>
+      <PropertyRef Name="id_veiculo" />
+    </Key>
+    <Property Name="id_veiculo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="placa" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="tipo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="registro_veiculo" Relationship="Self.FK_veiculo_registro_veiculo_fk" FromRole="veiculo" ToRole="registro_veiculo" />
+  </EntityType>
+  <Association Name="FK_praca_usuario_fk">
+    <End Role="praca" Type="Self.praca" Multiplicity="1" />
+    <End Role="usuario" Type="Self.usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="praca">
+        <PropertyRef Name="id_praca" />
+      </Principal>
+      <Dependent Role="usuario">
+        <PropertyRef Name="id_praca" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_usuario_registro_veiculo_fk">
+    <End Role="usuario" Type="Self.usuario" Multiplicity="1" />
+    <End Role="registro_veiculo" Type="Self.registro_veiculo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usuario">
+        <PropertyRef Name="id_usuario" />
+      </Principal>
+      <Dependent Role="registro_veiculo">
+        <PropertyRef Name="id_usuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_veiculo_registro_veiculo_fk">
+    <End Role="veiculo" Type="Self.veiculo" Multiplicity="1" />
+    <End Role="registro_veiculo" Type="Self.registro_veiculo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="veiculo">
+        <PropertyRef Name="id_veiculo" />
+      </Principal>
+      <Dependent Role="registro_veiculo">
+        <PropertyRef Name="id_veiculo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Database1Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="praca" EntityType="Self.praca" />
+    <EntitySet Name="registro_veiculo" EntityType="Self.registro_veiculo" />
+    <EntitySet Name="usuario" EntityType="Self.usuario" />
+    <EntitySet Name="veiculo" EntityType="Self.veiculo" />
+    <AssociationSet Name="FK_praca_usuario_fk" Association="Self.FK_praca_usuario_fk">
+      <End Role="praca" EntitySet="praca" />
+      <End Role="usuario" EntitySet="usuario" />
+    </AssociationSet>
+    <AssociationSet Name="FK_usuario_registro_veiculo_fk" Association="Self.FK_usuario_registro_veiculo_fk">
+      <End Role="usuario" EntitySet="usuario" />
+      <End Role="registro_veiculo" EntitySet="registro_veiculo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_veiculo_registro_veiculo_fk" Association="Self.FK_veiculo_registro_veiculo_fk">
+      <End Role="veiculo" EntitySet="veiculo" />
+      <End Role="registro_veiculo" EntitySet="registro_veiculo" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

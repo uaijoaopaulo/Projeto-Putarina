@@ -1,0 +1,86 @@
+c:\users\badu\documents\visual studio 2013\Projects\Putarina\Putarina\bin\Debug\Putarina.exe.config
+C:\Users\Badu\documents\visual studio 2013\Projects\Putarina\Putarina\bin\Debug\Putarina.exe
+C:\Users\Badu\documents\visual studio 2013\Projects\Putarina\Putarina\bin\Debug\Putarina.pdb
+C:\Users\Badu\documents\visual studio 2013\Projects\Putarina\Putarina\obj\Debug\Putarina.csprojResolveAssemblyReference.cache
+C:\Users\Badu\documents\visual studio 2013\Projects\Putarina\Putarina\obj\Debug\Putarina.Properties.Resources.resources
+C:\Users\Badu\documents\visual studio 2013\Projects\Putarina\Putarina\obj\Debug\Putarina.csproj.GenerateResource.Cache
+C:\Users\Badu\documents\visual studio 2013\Projects\Putarina\Putarina\obj\Debug\Putarina.exe
+C:\Users\Badu\documents\visual studio 2013\Projects\Putarina\Putarina\obj\Debug\Putarina.pdb
+C:\Users\Badu\documents\visual studio 2013\Projects\Putarina\Putarina\obj\Debug\Putarina.View.LoginView.resources
+C:\Users\Badu\documents\visual studio 2013\Projects\Putarina\Putarina\obj\Debug\Putarina.View.PrincipalView.resources
+C:\Users\Badu\documents\visual studio 2013\Projects\Putarina\Putarina\bin\Debug\App_data\DataModel.mdf
+C:\Users\Badu\documents\visual studio 2013\Projects\Putarina\Putarina\bin\Debug\App_data\DataModel_log.ldf
+C:\Users\Badu\documents\visual studio 2013\Projects\Putarina\Putarina\obj\Debug\Putarina.View.AdministradorView.resources
+C:\Users\Badu\documents\visual studio 2013\Projects\Putarina\Putarina\obj\Debug\Putarina.View.OperadorView.resources
+C:\Users\jpbra\Desktop\Putarina\Putarina\bin\Debug\Putarina.exe.config
+C:\Users\jpbra\Desktop\Putarina\Putarina\bin\Debug\Putarina.exe
+C:\Users\jpbra\Desktop\Putarina\Putarina\bin\Debug\Putarina.pdb
+C:\Users\jpbra\Desktop\Putarina\Putarina\bin\Debug\EntityFramework.dll
+C:\Users\jpbra\Desktop\Putarina\Putarina\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jpbra\Desktop\Putarina\Putarina\bin\Debug\EntityFramework.xml
+C:\Users\jpbra\Desktop\Putarina\Putarina\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jpbra\Desktop\Putarina\Putarina\obj\Debug\Putarina.Properties.Resources.resources
+C:\Users\jpbra\Desktop\Putarina\Putarina\obj\Debug\Putarina.View.AdministradorView.resources
+C:\Users\jpbra\Desktop\Putarina\Putarina\obj\Debug\Putarina.View.LoginView.resources
+C:\Users\jpbra\Desktop\Putarina\Putarina\obj\Debug\Putarina.View.OperadorView.resources
+C:\Users\jpbra\Desktop\Putarina\Putarina\obj\Debug\Putarina.csproj.GenerateResource.Cache
+C:\Users\jpbra\Desktop\Putarina\Putarina\obj\Debug\Putarina.csproj.CoreCompileInputs.cache
+C:\Users\jpbra\Desktop\Putarina\Putarina\obj\Debug\Putarina.exe
+C:\Users\jpbra\Desktop\Putarina\Putarina\obj\Debug\Putarina.pdb
+C:\Users\Desktop\Desktop\Putarina\Putarina\bin\Debug\Putarina.exe.config
+C:\Users\Desktop\Desktop\Putarina\Putarina\obj\Debug\Putarina.exe
+C:\Users\Desktop\Desktop\Putarina\Putarina\obj\Debug\Putarina.pdb
+C:\Users\Desktop\Desktop\Putarina\Putarina\obj\Debug\Putarina.csprojResolveAssemblyReference.cache
+C:\Users\Desktop\Desktop\Putarina\Putarina\obj\Debug\Putarina.Properties.Resources.resources
+C:\Users\Desktop\Desktop\Putarina\Putarina\obj\Debug\Putarina.View.AdministradorView.resources
+C:\Users\Desktop\Desktop\Putarina\Putarina\obj\Debug\Putarina.View.LoginView.resources
+C:\Users\Desktop\Desktop\Putarina\Putarina\obj\Debug\Putarina.View.OperadorView.resources
+C:\Users\Desktop\Desktop\Putarina\Putarina\obj\Debug\Putarina.View.PrincipalView.resources
+C:\Users\Desktop\Desktop\Putarina\Putarina\obj\Debug\Putarina.csproj.GenerateResource.Cache
+C:\Users\Desktop\Desktop\Putarina\Putarina\bin\Debug\App_data\DataBase.mdf
+C:\Users\Desktop\Desktop\Putarina\Putarina\bin\Debug\App_data\DataBase_log.ldf
+C:\Users\Desktop\Desktop\Putarina\Putarina\bin\Debug\Putarina.exe
+C:\Users\Desktop\Desktop\Putarina\Putarina\bin\Debug\Putarina.pdb
+C:\Users\Desktop\Desktop\Putarina\Putarina\bin\Debug\EntityFramework.dll
+C:\Users\Desktop\Desktop\Putarina\Putarina\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Desktop\Desktop\Putarina\Putarina\bin\Debug\EntityFramework.xml
+C:\Users\Desktop\Desktop\Putarina\Putarina\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jpbra\Desktop\Putarina todos\16 abril\Putarina\Putarina\bin\Debug\Putarina.exe.config
+C:\Users\jpbra\Desktop\Putarina todos\16 abril\Putarina\Putarina\obj\Debug\Putarina.exe
+C:\Users\jpbra\Desktop\Putarina todos\16 abril\Putarina\Putarina\obj\Debug\Putarina.pdb
+C:\Users\jpbra\Desktop\Putarina todos\16 abril\Putarina\Putarina\bin\Debug\App_data\DataBase.mdf
+C:\Users\jpbra\Desktop\Putarina todos\16 abril\Putarina\Putarina\bin\Debug\App_data\DataBase_log.ldf
+C:\Users\jpbra\Desktop\Putarina todos\16 abril\Putarina\Putarina\bin\Debug\Putarina.exe
+C:\Users\jpbra\Desktop\Putarina todos\16 abril\Putarina\Putarina\bin\Debug\Putarina.pdb
+C:\Users\jpbra\Desktop\Putarina todos\16 abril\Putarina\Putarina\bin\Debug\EntityFramework.dll
+C:\Users\jpbra\Desktop\Putarina todos\16 abril\Putarina\Putarina\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jpbra\Desktop\Putarina todos\16 abril\Putarina\Putarina\bin\Debug\EntityFramework.xml
+C:\Users\jpbra\Desktop\Putarina todos\16 abril\Putarina\Putarina\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jpbra\Desktop\Putarina todos\16 abril\Putarina\Putarina\obj\Debug\Putarina.csprojResolveAssemblyReference.cache
+C:\Users\jpbra\Desktop\Putarina todos\16 abril\Putarina\Putarina\obj\Debug\Putarina.Properties.Resources.resources
+C:\Users\jpbra\Desktop\Putarina todos\16 abril\Putarina\Putarina\obj\Debug\Putarina.View.AdministradorView.resources
+C:\Users\jpbra\Desktop\Putarina todos\16 abril\Putarina\Putarina\obj\Debug\Putarina.View.LoginView.resources
+C:\Users\jpbra\Desktop\Putarina todos\16 abril\Putarina\Putarina\obj\Debug\Putarina.View.OperadorView.resources
+C:\Users\jpbra\Desktop\Putarina todos\16 abril\Putarina\Putarina\obj\Debug\Putarina.View.PrincipalView.resources
+C:\Users\jpbra\Desktop\Putarina todos\16 abril\Putarina\Putarina\obj\Debug\Putarina.csproj.GenerateResource.Cache
+C:\Users\Lab-01-M01\Desktop\Putarina\Putarina\bin\Debug\Putarina.exe.config
+C:\Users\Lab-01-M01\Desktop\Putarina\Putarina\obj\Debug\Putarina.exe
+C:\Users\Lab-01-M01\Desktop\Putarina\Putarina\obj\Debug\Putarina.pdb
+C:\Users\Lab-01-M01\Desktop\Putarina\Putarina\bin\Debug\App_data\DataBase.mdf
+C:\Users\Lab-01-M01\Desktop\Putarina\Putarina\bin\Debug\App_data\DataBase_log.ldf
+C:\Users\Lab-01-M01\Desktop\Putarina\Putarina\bin\Debug\Putarina.exe
+C:\Users\Lab-01-M01\Desktop\Putarina\Putarina\bin\Debug\Putarina.pdb
+C:\Users\Lab-01-M01\Desktop\Putarina\Putarina\bin\Debug\EntityFramework.dll
+C:\Users\Lab-01-M01\Desktop\Putarina\Putarina\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lab-01-M01\Desktop\Putarina\Putarina\bin\Debug\EntityFramework.xml
+C:\Users\Lab-01-M01\Desktop\Putarina\Putarina\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lab-01-M01\Desktop\Putarina\Putarina\obj\Debug\Putarina.csprojResolveAssemblyReference.cache
+C:\Users\Lab-01-M01\Desktop\Putarina\Putarina\obj\Debug\Putarina.Properties.Resources.resources
+C:\Users\Lab-01-M01\Desktop\Putarina\Putarina\obj\Debug\Putarina.View.AdministradorView.resources
+C:\Users\Lab-01-M01\Desktop\Putarina\Putarina\obj\Debug\Putarina.View.LoginView.resources
+C:\Users\Lab-01-M01\Desktop\Putarina\Putarina\obj\Debug\Putarina.View.OperadorView.resources
+C:\Users\Lab-01-M01\Desktop\Putarina\Putarina\obj\Debug\Putarina.csproj.GenerateResource.Cache
+C:\Users\jpbra\Desktop\Putarina\Putarina\obj\Debug\Putarina.csprojAssemblyReference.cache
+C:\Users\jpbra\Desktop\Putarina\Putarina\obj\Debug\Putarina.csproj.CopyComplete
+C:\Users\jpbra\Desktop\Putarina\Putarina\bin\Debug\App_data\Database1.mdf
+C:\Users\jpbra\Desktop\Putarina\Putarina\bin\Debug\App_data\Database1_log.ldf
